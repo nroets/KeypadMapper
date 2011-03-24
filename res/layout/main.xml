@@ -19,7 +19,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
     
-    <LinearLayout
+    <LinearLayout android:id="@+id/buttonGroup"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical">
@@ -35,38 +35,38 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal" android:layout_width="fill_parent">
         
-        <Button android:id="@+id/button_1"
+        <Button android:tag="1"
             android:text="1" android:textSize="30sp"
             android:layout_width="0dip" android:layout_weight="1"
             android:layout_height="fill_parent" />
 
-        <Button android:id="@+id/button_2"
+        <Button android:tag="2"
             android:text="2" android:textSize="30sp"
             android:layout_width="0dip" android:layout_weight="1"
             android:layout_height="fill_parent" />
 
-        <Button android:id="@+id/button_3"
+        <Button android:tag="3"
             android:text="3" android:textSize="30sp"
             android:layout_width="0dip" android:layout_weight="1"
             android:layout_height="fill_parent" />
 
     </LinearLayout>
-
-    <LinearLayout
+    
+    <LinearLayout android:id="@+id/buttonGroup"
         android:layout_height="wrap_content"
         android:orientation="horizontal" android:layout_width="fill_parent">
         
-        <Button android:id="@+id/button_4"
+        <Button android:tag="4"
             android:text="4" android:textSize="30sp"
             android:layout_width="0dip" android:layout_weight="1"
             android:layout_height="fill_parent" />
 
-        <Button android:id="@+id/button_5"
+        <Button android:tag="5"
             android:text="5" android:textSize="30sp"
             android:layout_width="0dip" android:layout_weight="1"
             android:layout_height="fill_parent" />
 
-        <Button android:id="@+id/button_6"
+        <Button android:tag="6"
             android:text="6" android:textSize="30sp"
             android:layout_width="0dip" android:layout_weight="1"
             android:layout_height="fill_parent" />
@@ -77,17 +77,17 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal" android:layout_width="fill_parent">
         
-        <Button android:id="@+id/button_7"
+        <Button android:tag="7"
             android:text="7" android:textSize="30sp"
             android:layout_width="0dip" android:layout_weight="1"
             android:layout_height="fill_parent" />
 
-        <Button android:id="@+id/button_8"
+        <Button android:tag="8"
             android:text="8" android:textSize="30sp"
             android:layout_width="0dip" android:layout_weight="1"
             android:layout_height="fill_parent" />
 
-        <Button android:id="@+id/button_9"
+        <Button android:tag="9"
             android:text="9" android:textSize="30sp"
             android:layout_width="0dip" android:layout_weight="1"
             android:layout_height="fill_parent" />
@@ -103,7 +103,7 @@
             android:layout_width="0dip" android:layout_weight="1"
             android:layout_height="fill_parent" />
 
-        <Button android:id="@+id/button_0"
+        <Button android:tag="0"
             android:text="0" android:textSize="30sp"
             android:layout_width="0dip" android:layout_weight="1"
             android:layout_height="fill_parent" />
@@ -130,6 +130,48 @@
 
         <Button android:id="@+id/button_R"
             android:text="R" android:textSize="30sp"
+            android:layout_width="0dip" android:layout_weight="1"
+            android:layout_height="fill_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" android:layout_width="fill_parent">
+        
+        <Button android:tag="a"
+            android:text="a" android:textSize="30sp"
+            android:layout_width="0dip" android:layout_weight="1"
+            android:layout_height="fill_parent" />
+
+        <Button android:tag="b"
+            android:text="b" android:textSize="30sp"
+            android:layout_width="0dip" android:layout_weight="1"
+            android:layout_height="fill_parent" />
+
+        <Button android:tag="c"
+            android:text="c" android:textSize="30sp"
+            android:layout_width="0dip" android:layout_weight="1"
+            android:layout_height="fill_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" android:layout_width="fill_parent">
+        
+        <Button android:tag="d"
+            android:text="d" android:textSize="30sp"
+            android:layout_width="0dip" android:layout_weight="1"
+            android:layout_height="fill_parent" />
+
+        <Button android:tag="e"
+            android:text="e" android:textSize="30sp"
+            android:layout_width="0dip" android:layout_weight="1"
+            android:layout_height="fill_parent" />
+
+        <Button android:tag="f"
+            android:text="f" android:textSize="30sp"
             android:layout_width="0dip" android:layout_weight="1"
             android:layout_height="fill_parent" />
 
