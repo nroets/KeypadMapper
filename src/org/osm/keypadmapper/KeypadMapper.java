@@ -59,7 +59,9 @@ public class KeypadMapper extends Activity {
           	  }
           	  public void onClick (View v) {
                     if (v == findViewById (R.id.button_C)) val = "";
-                    else if (v == findViewById (R.id.button_DEL)) val = val.substring(0, val.length()-1);
+                    else if (v == findViewById (R.id.button_DEL)) {
+                    	if (val.length() > 0) val = val.substring(0, val.length()-1);
+                    }
                     else if (v == findViewById (R.id.button_L)) Do ("L");
                     else if (v == findViewById (R.id.button_F)) Do ("F");
                     else if (v == findViewById (R.id.button_R)) Do ("R");
