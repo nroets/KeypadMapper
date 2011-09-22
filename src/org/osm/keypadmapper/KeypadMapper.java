@@ -1,3 +1,4 @@
+/* Also see KeypadMapper2. It eliminates the need to postprocess the GPX */
 package org.osm.keypadmapper;
 
 import java.io.FileNotFoundException;
